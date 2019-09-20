@@ -43,7 +43,7 @@
 				</c:choose>
 			 </c:forEach>
 			<c:if test="${pageEnd<pageTotal }">
-				<a href="?page=${pageEnd+1 }">[Next]</a>	
+				<a href="?page=${pageEnd+1 }">[~Next~]</a>	
 			</c:if> 
 		</td>
 	</tr>
