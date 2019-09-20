@@ -1,0 +1,12 @@
+태그
+
+스크립트
+	-지시어(Directive Element)
+	-스크립팅
+		*선언(Declaraion)	 -정의
+		*스크립트릿(scriptlet)-서비스
+		*식(Expression)	 -syso
+
+액션
+
+EL 
