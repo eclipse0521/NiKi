@@ -30,7 +30,7 @@
 	<tr align="center">
 		<td colspan="5">
 			<c:if test="${pageStart>1 }">
-				<a href="?page=${pageStart-1 }">[Back]</a>
+				<a href="?page=${pageStart-1 }">[~Back~]</a>
 			</c:if>
 			<c:forEach begin ="${pageStart }" end="${pageEnd }" var="i" step="1">
 				<c:choose>
@@ -43,7 +43,7 @@
 				</c:choose>
 			 </c:forEach>
 			<c:if test="${pageEnd<pageTotal }">
-				<a href="?page=${pageEnd+1 }">[Next]</a>	
+				<a href="?page=${pageEnd+1 }">[~Next~]</a>	
 			</c:if> 
 		</td>
 	</tr>
